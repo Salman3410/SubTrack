@@ -1,9 +1,10 @@
 import { View, StyleSheet, Text } from "react-native";
+import Header from "../../components/Login/header";
 
 export default function LoginScreen(){
     return (
     <View style={styles.container}>
-        <Text>LoginScreen</Text>
+        <Header/>
     </View>
 )}
 
